@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Test 1: Basic Hello",
+        "points": 10,
+        "stdin": "World",
+        "stdout": "Hello, World!\n",
+        "check_stderr": true
+    },
+    {
+        "name": "Test 2: Stderr Check",
+        "points": 5,
+        "stdin": "",
+        "stdout": "",
+        "check_stderr": true
+    },
+    {
+        "name": "Test 3: File I/O",
+        "points": 10,
+        "stdin": {
+            "path": "input.txt"
+        },
+        "stdout": {
+            "path": "expected_output.txt"
+        },
+        "check_stderr": true
+    }
+]
