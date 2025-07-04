@@ -17,10 +17,10 @@
         "name": "Test 3: File I/O",
         "points": 10,
         "stdin": {
-            "path": "input.txt"
+            "path": "test/input.txt"
         },
         "stdout": {
-            "path": "expected_output.txt"
+            "path": "test/expected_output.txt"
         },
         "check_stderr": true
     }
